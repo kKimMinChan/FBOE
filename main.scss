@@ -79,12 +79,38 @@ header {
     }
   }
 }
+// Solution
+.solution {
+  padding: 30px 0 100px;
+  > .inner {
+    text-align: center;
+    h3 {
+      font-size: 36px;
+      font-weight: 900;
+      padding: 30px;
+    }
+    img {
+      width: 1000px;
+      margin-top: 50px;
+    }
+  }
+}
 
-
-
-
-
-
+.experience {
+  text-align: center;
+  padding: 120px 0;
+  > .inner {
+    width: 1300px;
+    h3 {
+      font-size: 36px;
+      font-weight: 900;
+      padding: 30px;
+    }
+    img {
+      width: 1000px;
+    }
+  }
+}
 
 
 @media screen and (max-width: 768px) {
