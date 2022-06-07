@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
   <title>FBOE</title>
   <!-- SWIPER-->
   <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
@@ -45,10 +46,21 @@
           <i class="fa-solid fa-bars"></i>
         </a>
       </nav>
-
-      <h4 class="slogan">Think! Optimally <Br> AI Solution</Br></h4>
     </div>
   </header>
+
+  <!-- video -->
+  <section class="video">
+    <video controls src="./video/video.mp4"></video>
+  </section>
+
+  <!-- visual
+  <section class="visual">
+    <div class="inner">
+      <h4 class="slogan">Think! Optimally <Br> AI Solution</Br></h4>
+    </div>
+  </section> -->
+
   <!-- Vision -->
   <section class="vision">
     <div class="inner">
@@ -63,40 +75,78 @@
       <div class="img-box">
         <div class="img">
           <img src="./images/TRUST.png" alt="">
+          <span>TRUST</span>
         </div>
         <div class="img">
           <img src="./images/CREATIVE.png" alt="">
+          <span>CREATIVE</span>
         </div>
         <div class="img">
           <img src="./images/FUTURE.png" alt="">
+          <span>FUTURE</span>
         </div>
       </div>
     </div>
   </section>
 
+<!-- experience -->
   <section class="experience">
-    <div class="inner">
+    <div class="large-inner">
       <h3>Our Expreience</h3>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="./images/reference.png" alt="img">
-          </div>
-          <div class="swiper-slide">
-            <img src="./images/reference2.png" alt="img">
-          </div>
-          <div class="swiper-slide">
-            <img src="./images/reference3.png" alt="img">
-          </div>
-          <div class="swiper-slide">
-            <img src="./images/reference4.png" alt="img">
-          </div>
-          <div class="swiper-slide">
-            <img src="./images/reference.png" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
+      <ul class="experience__contents">
+        <li class="content__item">
+          <ul>
+            <li class="item__text">
+              <h4>Title</h4>
+              <p>reference__content reference__content reference__content reference__content reference__content
+                reference__content reference__content reference__content reference__content
+              </p>
+            </li>
+            <li class="item__img">
+              <img src="./images/reference.png" alt="">
+            </li>
+          </ul>
+        </li>
+        <li class="content__item">
+          <ul>
+            <li class="item__img">
+              <img src="./images/reference2.png" alt="">
+            </li>
+            <li class="item__text">
+              <h4>Title</h4>
+              <p>reference__content reference__content reference__content reference__content reference__content
+                reference__content reference__content reference__content reference__content
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li class="content__item">
+          <ul>
+            <li class="item__text">
+              <h4>Title</h4>
+              <p>reference__content reference__content reference__content reference__content reference__content
+                reference__content reference__content reference__content reference__content
+              </p>
+            </li>
+            <li class="item__img">
+              <img src="./images/reference3.png" alt="">
+            </li>
+          </ul>
+        </li>
+        <li class="content__item">
+          <ul>
+            <li class="item__img">
+              <img src="./images/reference4.png" alt="">
+            </li>
+            <li class="item__text">
+              <h4>Title</h4>
+              <p>reference__content reference__content reference__content reference__content reference__content
+                reference__content reference__content reference__content reference__content
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
   </section>
 
   <!-- Solution -->
@@ -109,15 +159,80 @@
       <div class="solution-box">
         <div class="img">
           <img src="./images/solution_one.png" alt="">
+          <div class="img__btn">
+            <a href="javascript:void(0)" class="btn">learn more</a>
+          </div>
         </div>
         <div class="img">
           <img src="./images/solution_two.png" alt="">
+          <div class="img__btn">
+            <a href="javascript:void(0)" class="btn">learn more</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <section class="awards">
+    <div class="large-inner">
+      <h3>AWARDS</h3>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
 
+  <section class="contact">
+    <div class="inner">
+      <div class="contact__frame">
+        <div class="contact__frame__left">
+          <div class="title">Contact us</div>
+          <div class="mail">이메일</div>
+          <div class="number">전화번호</div>
+        </div>
+        <div class="table">
+          <div class="name">Name
+            <div class="name__all">
+              <div class="name__first"><input type="text" placeholder="First Name"><br>First Name</div>
+              <div class="name__second"><input type="text" placeholder="Last Name"><br>Last Name</div>
+            </div>
+          </div>
+          <div class="guest__email">Email<br><input type="text" placeholder="Email"></div>
+          <div class="message">Message<br><textarea name="" id="" cols="30" rows="15" placeholder="Message"></textarea></div>
+          <div class="click">
+
+            <a href="javascript:void(0)"><input class="button" type="button" name="send" value="send"></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="inner">
+      <img src="./images/name.png" alt="logo">
+      <p>Copyright © 2022. Nota Inc. All rights reserved.</p>
+    </div>
+  </footer>
 
 </body>
 
